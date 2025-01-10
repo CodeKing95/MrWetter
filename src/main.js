@@ -1,3 +1,7 @@
-import { getCurrentWeather } from "./src/api";
+import { loadMainMenu } from "./mainMenu";
+import "/styles/styles.scss";
 
-getCurrentWeather();
+export const rootElement = document.getElementById("app");
+
+// loadDetailView("Los Angeles");
+loadMainMenu();
